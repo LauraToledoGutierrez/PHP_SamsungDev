@@ -1,0 +1,27 @@
+<!-- Práctica PHP Samsung Desarrolladoras 2022/23. Laura Toledo Gutiérrez-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de registro</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script src="validacion.js"></script>
+</head>
+<body>
+    <div class="group">
+        <form id="formulario" method="POST" action="formulario.php">
+            <h2><em>Formulario de registro</em></h2>
+            <label for="nombre">Nombre: <span><em>(requerido)</em></span></label>
+            <input type="text" name="nombre" class="form-input" autocomplete="off" required><br><br>
+    
+            <label for="apellido">Apellido: <span><em>(requerido)</em></span></label>
+            <input type="text" name="apellido" class="form-input" autocomplete="off" required><br><br>
+    
+            <label form="email">Email: <span><em>(requerido)</em></span></label>
+            <input type="email" name="email" class="form-input" autocomplete="off" required><br><br>
+    
+            <input id="submit-btn" class="form-btn" type="submit" name="submit" value="Suscribirse">
+        </form>
+    </div>
+</body>
+</html>
