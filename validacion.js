@@ -2,8 +2,10 @@
 
 //Cuando se carga la pagina en el navegador
 window.addEventListener('load', function() {
+    
     //Funcion para validar el formulario
     function validarFormulario(event) {
+
         //Obtenemos el valor de los campos del formulario
         var nombre = document.getElementsByName('nombre')[0].value;
         var apellido = document.getElementsByName('apellido')[0].value;
